@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Id:</strong>
+  <%= @pack.id %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @pack.city %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @pack.state %>
+</p>
+
+<p>
+  <strong>Population:</strong>
+  <%= @pack.population %>
+</p>
+
+<%= link_to 'Edit', edit_pack_path(@pack) %> |
+<%= link_to 'Back', packs_path %>
